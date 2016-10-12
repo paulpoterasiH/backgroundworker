@@ -9,7 +9,10 @@
     "benchmark": "script/benchmark"
   },
   "author": "Hunter Loftis <hunter@heroku.com>",
-  "repository": "hunterloftis/node-production",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hunterloftis/node-production.git"
+  },
   "license": "ISC",
   "dependencies": {
     "amqplib": "^0.2.1",
@@ -23,11 +26,12 @@
     "lodash": "^2.4.1",
     "logfmt": "^1.1.2",
     "mongoose": "~3.8.13",
-    "mongoose-cache": "git://github.com/hunterloftis/mongoose-cache",
+    "mongoose-cache": "git://github.com/hunterloftis/mongoose-cache.git",
     "mongoose-timestamp": "^0.3.0",
     "morgan": "^1.2.0",
     "node-uuid": "^1.4.1",
     "promise": "^5.0.0",
+    "pug": "^2.0.0-beta6",
     "serve-favicon": "~2.0.1",
     "summarize": "^1.5.0",
     "superagent": "^0.18.2",
@@ -36,5 +40,9 @@
   "devDependencies": {},
   "engines": {
     "iojs": "1.0.x"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/hunterloftis/node-production/issues"
+  },
+  "homepage": "https://github.com/hunterloftis/node-production#readme"
 }
